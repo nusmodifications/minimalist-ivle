@@ -56,3 +56,21 @@
 {
     border: 0px;
 }
+
+/* Module code */
+.wsLegendOther-txt
+{
+    font-size: 1.2em;
+}
+
+/* Titles for module code and subsections */
+.wsToolTitle-txt
+{
+    font-size: 1em;
+}
+
+/* Module section */
+.wsToolLegendOther-txt
+{
+    font-size: 1.2em;
+}
