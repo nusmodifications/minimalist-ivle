@@ -6,6 +6,8 @@ A stylesheet mod that turns IVLE into something usable by removing clutter.
 This stylesheet should only be used by students because it may hide or modify
 functionality that staff or lecturers might use.
 
+![Pretty Screenshot](https://raw.githubusercontent.com/cgcai/Minimalist-IVLE/master/screenshot.png)
+
 ##Installation Instructions
 
 Inject the following stylesheet into your profile's welcome message:
