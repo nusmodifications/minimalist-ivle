@@ -24,11 +24,6 @@ your modules.
 
 The mod can be uninstalled cleanly and leaves no side effects.
 
-###What Am I Actually Doing?
-
-You are injecting a stylesheet into an unsanitised field in IVLE. This only
-affects your own user.
-
 ###Uninstalling
 
 Go back to your profile page and remove the `<link>` tag in your welcome
