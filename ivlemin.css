@@ -1,0 +1,102 @@
+/* Hide everything except "Logout" and "Search" buttons */
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(1) {
+    display: none;
+}
+#ctl00_hl_Email {
+    display: none;
+}
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(2) {
+    display: none;
+}
+#ctl00_hl_Statistics {
+    display: none;
+}
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(4) {
+    display: none;
+}
+#ctl00_hl_Help {
+    display: none;
+}
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(8) {
+    display: none;
+}
+#ctl00_hl_Support {
+    display: none;
+}
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(10) {
+    display: none;
+}
+#ctl00_hl_Forum {
+    display: none;
+}
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(12) {
+    display: none;
+}
+
+/* Hide left side-bar */
+#ctl00_ContentPlaceHolder1_ctl00_Td1 {
+    display: none;
+}
+
+/* Hide "Important Announcements" spam */
+#ctl00_ContentPlaceHolder1_C2 > table > tbody > tr > td:nth-child(2) > table {
+    display: none;
+}
+
+/* Hide "Notifications" spam */
+#ctl00_ContentPlaceHolder1_ctl00_lbl > div:nth-child(2) {
+    display: none;
+}
+
+/* Hide right side-bar
+ * Note: Also hides password change reminder.
+ */
+#ctl00_ContentPlaceHolder1_ctl00_C3 {
+    display: none;
+}
+
+/* Hide "Bookmarks" tab */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Bookmark_tab {
+    display: none;
+}
+
+/* Hide "Community" tab */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Communities_tab {
+    display: none;
+}
+
+/* Hide "Resource Bank" menu item */
+#ctl00_TopMenun3 {
+    display: none;
+}
+
+/* Hide "Usage" menu item */
+#ctl00_TopMenun4 {
+    display: none;
+}
+
+/* Hide "Owner/Manager" key in "Modules" tab */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_tblLegend {
+    display: none;
+}
+
+/* Hide notice to create modules
+ * Also delete unnecessary breaks
+ */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module > table > tbody > tr > td > hr {
+    display: none;
+}
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > span {
+    display: none;
+}
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(2) {
+    display: none;
+}
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(3) {
+    display: none;
+}
+
+/* Hide redundant text in "Student Modules" */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(1) {
+    display: none;
+}
