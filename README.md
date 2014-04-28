@@ -22,6 +22,10 @@ This causes the stylesheet to load on every page that the welcome message is
 displayed. Most importantly, it loads on the landing page that displays all
 your modules.
 
+###What Am I Actually Doing?
+
+You are injecting a stylesheet into an unsanitised field in IVLE.
+
 ##Hosting Your Own Stylesheet
 
 You can of course host your own stylesheet. Your server should also
@@ -49,4 +53,4 @@ Several things on the todo list:
 This stylesheet might inadvertently hide important things on IVLE. Use at your
 own risk.
 
-Built during final exams Semester 2 AY13/14
+Built during final exams Semester 2 AY13/14.
