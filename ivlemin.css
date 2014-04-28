@@ -1,34 +1,14 @@
 /* Hide everything except "Logout" and "Search" buttons */
-#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(1) {
-    display: none;
-}
-#ctl00_hl_Email {
-    display: none;
-}
-#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(2) {
-    display: none;
-}
-#ctl00_hl_Statistics {
-    display: none;
-}
-#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(4) {
-    display: none;
-}
-#ctl00_hl_Help {
-    display: none;
-}
-#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(8) {
-    display: none;
-}
-#ctl00_hl_Support {
-    display: none;
-}
-#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(10) {
-    display: none;
-}
-#ctl00_hl_Forum {
-    display: none;
-}
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(1),
+#ctl00_hl_Email,
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(2),
+#ctl00_hl_Statistics,
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(4),
+#ctl00_hl_Help,
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(8),
+#ctl00_hl_Support,
+#ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(10),
+#ctl00_hl_Forum,
 #ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(2) > font:nth-child(12) {
     display: none;
 }
@@ -83,15 +63,9 @@
 /* Hide notice to create modules
  * Also delete unnecessary breaks
  */
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module > table > tbody > tr > td > hr {
-    display: none;
-}
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > span {
-    display: none;
-}
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(2) {
-    display: none;
-}
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module > table > tbody > tr > td > hr,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > span,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(2),
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(3) {
     display: none;
 }
