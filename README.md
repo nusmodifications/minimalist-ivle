@@ -22,9 +22,17 @@ This causes the stylesheet to load on every page that the welcome message is
 displayed. Most importantly, it loads on the landing page that displays all
 your modules.
 
+The mod can be uninstalled cleanly and leaves no side effects.
+
 ###What Am I Actually Doing?
 
-You are injecting a stylesheet into an unsanitised field in IVLE.
+You are injecting a stylesheet into an unsanitised field in IVLE. This only
+affects your own user.
+
+###Uninstalling
+
+Go back to your profile page and remove the `<link>` tag in your welcome
+message.
 
 ##Hosting Your Own Stylesheet
 
