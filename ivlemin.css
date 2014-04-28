@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
 /* Hide everything except "Logout" and "Search" buttons */
 #ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(1),
 #ctl00_hl_Email,
@@ -57,20 +59,39 @@
     border: 0px;
 }
 
+/* Make links black */
+a, a:visited
+{
+    text-decoration: none;
+    color: #000;
+}
+
 /* Module code */
+.wsLegendManager-txt,
 .wsLegendOther-txt
 {
+    color: #000;
+    font-family: 'Roboto', 'sans-serif';
     font-size: 1.2em;
 }
 
 /* Titles for module code and subsections */
 .wsToolTitle-txt
 {
+    font-family: 'Roboto', 'sans-serif';
     font-size: 1em;
 }
 
 /* Module section */
 .wsToolLegendOther-txt
 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.2em;
+}
+
+/* Unpublished modules */
+.wsLegendUnpublish-txt
+{
+    font-family: 'Roboto', 'sans-serif';
     font-size: 1.2em;
 }

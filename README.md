@@ -40,11 +40,17 @@ SoC students can host on `sunfire.comp.nus.edu.sg`.
 2. `chmod -R 755 public_html`
 3. Access via `{http, https}://sunfire.comp.nus.edu.sg/~user/`
 
-##Contributing
+##Contributions Welcome
 
-Contributions welcome.
+3 easy steps:
 
-The overarching aim of this project is to turn IVLE into something usable.
+1. Fork the repo.
+2. Push a change to your own repo.
+3. Send a Pull Request!
+
+The overarching aim of this project is to turn IVLE into something usable. You
+should open an issue before starting to work on something just in case someone
+is already planning to do the same thing.
 
 Several things on the todo list:
 
@@ -53,6 +59,7 @@ Several things on the todo list:
 3. Reactive design!
 4. Better differentiation between TA and student modules.
 5. Don't hide TA-specific links.
+6. Inject JavaScript to enable richer functionality.
 
 ##Disclaimer
 This stylesheet might inadvertently hide important things on IVLE. Use at your
