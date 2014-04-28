@@ -25,11 +25,8 @@
  */
 #ctl00_ContentPlaceHolder1_ctl00_C3,
 
-/* Hide "Bookmarks" tab */
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Bookmark_tab,
-
-/* Hide "Community" tab */
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Communities_tab,
+/* Hide tab container */
+#ctl00_ContentPlaceHolder1_ctl00_TC_header,
 
 /* Hide "Resource Bank" menu item */
 #ctl00_TopMenun3,
@@ -52,4 +49,10 @@
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(1)
 {
     display: none;
+}
+
+/* Remove border from modules */
+#ctl00_ContentPlaceHolder1_ctl00_TC_body
+{
+    border: 0px;
 }
