@@ -55,7 +55,9 @@ Several things on the todo list:
 
 1. Change the font.
 2. Change the colour scheme.
-3. Reactive!
+3. Reactive design!
+4. Better differentiation between TA and student modules.
+5. Don't hide TA-specific links.
 
 ##Disclaimer
 This stylesheet might inadvertently hide important things on IVLE. Use at your
