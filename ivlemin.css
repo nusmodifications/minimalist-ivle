@@ -1,4 +1,145 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* FontAwesome hack */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/fonts/fontawesome-webfont.woff?v=4.0.3');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Remove table background */
+table
+{
+    background-color: #fff;
+}
+
+/* Remove menu background images */
+.bBack,
+.topBanner,
+.TopMenuGroup-0
+{
+    background-image: none;
+}
+
+/* Make banner text visible on white */
+.welcomeMsg-txt,
+#ctl00_hl_LogOut,
+#ctl00_hl_Search
+{
+    color: #000;
+}
+
+/* Replace the icon for What's New
+ * fa-bullhorn
+ */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(2) > a:nth-child(1):before
+{
+    font-size: 2.0em;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    content: '\f0a1';
+    padding-left: 0.5em;
+}
+
+/* Replace the icon for Download
+ * fa-cloud-download
+ */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(2) > a:nth-child(2):before
+{
+    font-size: 2.0em;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    content: '\f0ed';
+    padding-left: 0.5em;
+}
+
+/* Replace the icon for Download
+ * fa-refresh
+ */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(2) > a:nth-child(3):before
+{
+    font-size: 2.0em;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    content: '\f021';
+    padding-left: 0.5em;
+}
+
+/* Replace the profile info icon
+ * fa-info-circle
+ */
+#ctl00_hlProfileInfo:before
+{
+    font-size: 1.0em;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    content: '\f05a';
+}
+
+/* Replace Logout with icon
+ * fa-sign-out
+ */
+#ctl00_hl_LogOut:before
+{
+    font-size: 1.5em;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    content: '\f08b\00a0';
+}
+
+/* Replace Search with icon
+ * fa-search
+ */
+#ctl00_hl_Search:before
+{
+    font-size: 1.5em;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    content: '\f002\00a0';
+}
+
+/* Add TA module icon
+ * fa-user
+ */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > a:nth-child(1):before
+{
+    font-size: 1.8em;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    content: '\f007';
+}
+
+/* Make fa icon hovers NUS orange */
+#ctl00_hl_Search:hover,
+#ctl00_hl_LogOut:hover,
+#ctl00_hlProfileInfo:hover,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > a:nth-child(1):hover,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(2) > a:hover
+{
+    color: rgb(234, 100, 0);
+}
 
 /* Hide everything except "Logout" and "Search" buttons */
 #ctl00_tbl_Top > tbody > tr.bBack > td:nth-child(1),
@@ -62,9 +203,31 @@
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > a > img,
 
 /* Hide icons beside module title */
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > a > img
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > a > img,
+
+/* Hide What's New, Download, Refresh buttons */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(2) > a:nth-child(1) > img,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(2) > a:nth-child(2) > img,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(2) > a:nth-child(3) > img,
+
+/* Hide banner info icon next to name */
+#ctl00_hlProfileInfo > img,
+
+/* Hide psuedo-tree for TAs */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(1),
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(1),
+
+/* Hide TA edit icon */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > a:nth-child(1) > img
 {
     display: none;
+}
+
+/* Always expand modules */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr
+{
+    display: block !important;
 }
 
 /* Add vertical spacing between modules */
