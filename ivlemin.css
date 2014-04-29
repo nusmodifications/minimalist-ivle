@@ -58,13 +58,11 @@
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > img,
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > img,
 
-/* Hide icons beside titles */
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > a > img
-{
-    display: none;
-}
+/* Hide icons beside module aspects */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > a > img,
 
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(1)
+/* Hide icons beside module title */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > a > img
 {
     display: none;
 }
