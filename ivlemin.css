@@ -48,7 +48,23 @@
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(3),
 
 /* Hide redundant text in "Student Modules" */
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(1)
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(1),
+
+/* Hide psuedo-tree */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(1),
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(1),
+
+/* Hide bullets */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > img,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > img,
+
+/* Hide icons beside titles */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > a > img
+{
+    display: none;
+}
+
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(1)
 {
     display: none;
 }
