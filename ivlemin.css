@@ -131,12 +131,27 @@ table
     content: '\f007';
 }
 
+/* Add edit icons
+ * fa-pencil-square-o
+ */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > a:nth-child(1):before
+{
+    font-size: 1.0em;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    content: '\f044';
+}
+
 /* Make fa icon hovers NUS orange */
 #ctl00_hl_Search:hover,
 #ctl00_hl_LogOut:hover,
 #ctl00_hlProfileInfo:hover,
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > a:nth-child(1):hover,
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(2) > a:hover
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > table > tbody > tr > td:nth-child(2) > a:hover,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > a:hover
 {
     color: rgb(234, 100, 0);
 }
@@ -203,6 +218,7 @@ table
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(2) > a > img,
 
 /* Hide icons beside module title */
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > a > img,
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(7) > table > tbody > tr > td:nth-child(2) > a > img,
 
 /* Hide What's New, Download, Refresh buttons */
@@ -218,7 +234,8 @@ table
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(1),
 
 /* Hide TA edit icon */
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > a:nth-child(1) > img
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td:nth-child(2) > a:nth-child(1) > img,
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > div:nth-child(4) > table > tbody > tr > td > table > tbody > tr > td:nth-child(2) > a > img
 {
     display: none;
 }
@@ -273,8 +290,10 @@ a, a:visited
 }
 
 /* Module section */
-.wsToolLegendOther-txt
+.wsToolLegendOther-txt,
+.wsToolLegendManager-txt
 {
+    color: #000;
     font-family: 'Roboto', 'sans-serif';
     font-size: 1.5em;
 }
