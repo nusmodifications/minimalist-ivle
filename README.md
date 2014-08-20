@@ -1,4 +1,4 @@
-Minimalist-IVLE
+Minimalist IVLE
 ===============
 
 A stylesheet mod that turns IVLE into something usable by removing clutter.
@@ -6,7 +6,7 @@ A stylesheet mod that turns IVLE into something usable by removing clutter.
 This stylesheet should only be used by students because it may hide or modify
 functionality that staff or lecturers might use.
 
-![Pretty Screenshot](https://raw.githubusercontent.com/cgcai/Minimalist-IVLE/master/screenshot.jpeg)
+![Pretty Screenshot](https://raw.githubusercontent.com/nusmodifications/Minimalist-IVLE/master/screenshot.jpeg)
 
 ##Installation Instructions
 
@@ -39,6 +39,9 @@ SoC students can host on `sunfire.comp.nus.edu.sg`.
 1. Create `public_html` in your home directory.
 2. `chmod -R 755 public_html`
 3. Access via `{http, https}://sunfire.comp.nus.edu.sg/~user/`
+
+Note IVLE's 100-character limit on the Profile field, which can prevent the use
+of long domain names.
 
 ##Contributions Welcome
 
