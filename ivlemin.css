@@ -4,7 +4,8 @@
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > span,
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(2),
 #ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(3),
-#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(5)
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_navTree > br:nth-child(5),
+#ctl00_ContentPlaceHolder1_ctl00_TC_TP_Module_tblLegend
 {
   display: none;
 }
