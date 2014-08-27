@@ -8,60 +8,28 @@ functionality that staff or lecturers might use.
 
 ![Pretty Screenshot](https://raw.githubusercontent.com/nusmodifications/Minimalist-IVLE/master/screenshot.jpeg)
 
-##Installation Instructions
+##Important Note
+This project has been deprecated by recent changes in IVLE.
 
-Copy the following code into your profile's welcome message:
+Apparently, the mode of installation was a security vulnerability that has since been fixed. Who would have known?
 
-    NUSMods<link rel="stylesheet" href="https://www.qxcg.net/misc/ivlemin.css">
+![Smiley](https://www.qxcg.net/misc/smiley.jpg)
 
-1. Go to "Profile > Profile".
-2. Click on "Edit" at the bottom of the page.
-3. Add the `<link>` tag above to your welcome message.
+If you have previously installed the mod, you might be seeing some scary looking text on your profile right now. Not to worry, the original uninstallation steps still remove the mod cleanly.
 
-This causes the stylesheet to load on every page that the welcome message is
-displayed. Most importantly, it loads on the landing page that displays all
-your modules.
+While the project can no longer be used (or revived, due to technical reasons), we're keeping this repo live for posterity. Thanks for your support!
 
-The mod can be uninstalled cleanly and leaves no side effects.
+~~Installation Instructions~~
 
-###Uninstalling
+##Uninstalling
 
 Go back to your profile page and remove the `<link>` tag in your welcome
 message.
 
-##Hosting Your Own Stylesheet
+~~Hosting Your Own Stylesheet~~
 
-You can of course host your own stylesheet. Your server should also
-support `https` to avoid cross-protocol warnings.
+~~Contributions Welcome~~
 
-SoC students can host on `sunfire.comp.nus.edu.sg`.
+~~Disclaimer~~
 
-1. Create `public_html` in your home directory.
-2. `chmod -R 755 public_html`
-3. Access via `{http, https}://sunfire.comp.nus.edu.sg/~user/`
-
-Note IVLE's 100-character limit on the Profile field, which can prevent the use
-of long domain names.
-
-##Contributions Welcome
-
-3 easy steps:
-
-1. Fork the repo.
-2. Push a change to your own repo.
-3. Send a Pull Request!
-
-The overarching aim of this project is to turn IVLE into something usable. You
-should open an issue before starting to work on something just in case someone
-is already planning to do the same thing.
-
-Several things on the todo list:
-
-1. Test on TAs.
-2. Test on lecturers.
-
-##Disclaimer
-This stylesheet might inadvertently hide important things on IVLE. Use at your
-own risk.
-
-Built during final exams Semester 2 AY13/14.
+Originally built during final exams Semester 2 AY13/14.
